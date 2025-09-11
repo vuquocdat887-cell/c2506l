@@ -1,0 +1,9 @@
+.anh {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+   
+
+}
