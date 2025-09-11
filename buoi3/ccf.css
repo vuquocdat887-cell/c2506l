@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: #040000;
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.nume {
+    display: flex;
+    background: #627f9f;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+}
+.dyboi{
+    flex: 1;
+}
