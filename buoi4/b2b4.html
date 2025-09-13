@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./b2-b4.css">
+</head>
+
+<body>
+    <form class="abcd" action="#" method="post">
+        <h2>đăng ký</h2>
+
+        <label for="name">họ tên</label>
+        <input type="text" id="name" name="name" placeholder="Nhập họ tên" required>
+
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" placeholder="nhập mail" required>
+
+        <label>giới tính</label>
+        <div>
+            <input type="radio" id="male" name="gender" value="nam">
+            <label for="male">nam</label>
+            <input type="radio" id="female" name="gender" value="nữ">
+            <label for="female">nữ</label>
+        </div>
+
+        <label>sở thích</label>
+        <div>
+            <input type="checkbox" id="music" name="hobby" value="âm nhạc">
+            <label for="music">âm nhạc</label><br>
+            <input type="checkbox" id="sport" name="hobby" value="thể thao">
+            <label for="sport">thể thao</label><br>
+            <input type="checkbox" id="travel" name="hobby" value="du lịch">
+            <label for="travel">du lịch</label>
+        </div>
+
+        <label for="country">quốc gia</label>
+        <select id="country" name="country"  required>
+            <option value="">--chọn quốc gia--</option>
+            <option value="vn">việt nam</option>
+            <option value="us">mỹ</option>
+            <option value="jp">nhật bản</option>
+            <option value="fr">pháp</option>
+        </select>
+
+        <div style="display: flex; justify-content: space-between; margin: 15px 0;">
+            <button type="submit">DK</button>
+            <input type="reset" value="nhập lại">
+        </div>
+    </form>
+</body>
+
+</html>
