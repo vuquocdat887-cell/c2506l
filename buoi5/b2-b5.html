@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b2b5.css">
+
+</head>
+
+<body>
+
+  <h1>Bảng Sản Phẩm</h1>
+  <table>
+    <tr>
+      <th>Tên sản phẩm</th>
+      <th>Giá</th>
+      <th>Tình trạng</th>
+    </tr>
+    <tr>
+      <td>Sản phẩm A</td>
+      <td>₫199,000</td>
+      <td>Còn hàng</td>
+    </tr>
+    <tr>
+      <td>Sản phẩm B</td>
+      <td>₫299,000</td>
+      <td>Hết hàng</td>
+    </tr>
+    <tr>
+      <td>Sản phẩm C</td>
+      <td>₫399,000</td>
+      <td>Còn hàng</td>
+    </tr>
+  </table>
+
+  <h2>Form Đăng Ký Mua Hàng</h2>
+  <form>
+    <label for="name">Họ và tên:</label>
+    <input type="text" id="name" name="name" placeholder="Nhập họ tên" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Nhập email" required>
+
+    <label for="phone">Số điện thoại:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại" required>
+
+    <label for="product">Chọn sản phẩm:</label>
+    <select id="product" name="product" required>
+      <option value="">--Chọn sản phẩm--</option>
+      <option value="A">Sản phẩm A</option>
+      <option value="B">Sản phẩm B</option>
+      <option value="C">Sản phẩm C</option>
+    </select>
+
+    <button >Đăng ký</button>
+  </form>
+
+</body>
+</html>
