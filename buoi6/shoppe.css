@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: whitesmoke;
+    height: 100%;
+
+}
+
+.qwe {
+    background: linear-gradient(175deg, rgb(166, 30, 30), rgb(255, 111, 0));
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.abcd {
+    max-width: 1200px;
+    height: 120px;
+    align-items: center;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wer {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.wer a {
+    text-decoration: none;
+    color: azure;
+}
+
+.wer .lll {
+    border-right: 1px solid black;
+    padding-right: 8px;
+}
+
+.ert {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.ert a {
+    color: azure;
+    text-decoration: none;
+}
+
+.rty {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    height: 50px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo h1 {
+    display: flex;
+    width: 53px;
+    height: 50px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 111, 0);
+    font-size: 60px;
+    margin-block: 0;
+}
+
+.logo h2 {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 120px;
+    font-size: 30px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex: 1 1;
+    padding: 10px;
+    border-collapse: collapse;
+    background: white;
+
+}
+
+input {
+    flex: 1;
+    border: none;
+    padding-left: 20px;
+}
+
+.solo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-searchengin {
+    transform: scale(2.5);
+    display: none;
+}
+
+.fa-cart-shopping {
+    transform: scale(2.5);
+
+}
+
+.trongshop {
+    border: none;
+    border-left: 1px solid black;
+}
+
+main {
+    display: flex;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.mnb {
+    margin-right: 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    max-height: 180px;
+
+}
+
+.nbv {
+    padding: 10px 30px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: 500;
+    flex: 1 1;
+
+}
+
+.bvc a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 30px;
+    flex: 1 1;
+
+}
+
+.bvc a:hover {
+    color: orange;
+    transform: translateX(5px);
+}
+
+.vcx {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cxz {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background: rgb(205, 201, 201);
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.xzl {
+    flex: 1 1;
+}
+
+.xzl button, .xzl select {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    flex: 1 1;
+}
+
+.xzl button:hover {
+    box-shadow: 3px 3px 10px;
+}
+
+.lkj button {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.lkj button:hover {
+    background: whitesmoke;
+    box-shadow: 0px 5px 20px olivedrab;
+}
+
+.tgb {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 15px;
+    height: 100%;
+}
+
+.yhn {
+    border-collapse: collapse;
+    position: relative;
+}
+
+.nhh {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff700;
+    padding: 5px;
+}
+
+.hhn {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: rgb(235, 80, 24);
+    padding: 2px 5px;
+    color: aliceblue;
+    font-size: small;
+}
+
+.yhn p {
+    margin: 0;
+}
+
+.nnn {
+    border: 1px solid rgb(215, 212, 212);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 0 15px;
+}
+
+.fa-star {
+    font-size: small;
+    color: rgb(163, 168, 172);
+    font-size: 8px;
+}
+
+.kjl {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.kjl a, span {
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: rgb(139, 140, 142);
+    font-size: 19px;
+}
+
+.kjl button:hover, .kjl a:hover {
+    background: orangered;
+    transform: translateY(-7px);
+}
+
+.lazm {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.mzal {
+    display: flex;
+    flex-direction: column;
+}
+
+.mzal small, a {
+    text-decoration: none;
+    color: black;
+    margin: 5px 0;
+}
+
+.mzal a:hover {
+    color: orangered;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .tgb {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media (max-width: 768px) {
+    .tgb {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .logo {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .mnb {
+        display: none;
+    }
+
+    .fa-searchengin {
+        display: inline;
+    }
+
+    .abcd {
+        height: 80px;
+    }
+
+    .lkj button {
+        padding: 5px;
+    }
+
+}
+
+@media(max-width:880px) {
+
+    .xzl select {
+        display: none;
+    }
+
+    .xzl {
+        display: flex;
+    }
+
+    .cxz select {
+        border: none;
+        border-radius:4px ;
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width:880px) {
+    .cxz select {
+        display: none;
+    }
+
+    .xzl select {
+        display: inline-block;
+    }
+}
