@@ -147,11 +147,10 @@ main {
 }
 
 .nbv {
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-bottom: 1px solid black;
     font-size: 20px;
     font-weight: 500;
-    flex: 1 1;
 
 }
 
@@ -159,9 +158,8 @@ main {
     color: black;
     text-decoration: none;
     display: block;
-    padding: 5px 30px;
+    padding: 6px 30px;
     flex: 1 1;
-
 }
 
 .bvc a:hover {
@@ -210,7 +208,7 @@ main {
 }
 
 .lkj button:hover {
-    background: whitesmoke;
+    background: rgb(184, 184, 184);
     box-shadow: 0px 5px 20px olivedrab;
 }
 
@@ -225,6 +223,7 @@ main {
 .yhn {
     border-collapse: collapse;
     position: relative;
+    padding-left: 5px;
 }
 
 .nhh {
@@ -256,6 +255,9 @@ main {
     gap: 10px;
     background: white;
     padding: 0 15px;
+}
+.nnn p{
+    height: 37px;
 }
 
 .fa-star {
